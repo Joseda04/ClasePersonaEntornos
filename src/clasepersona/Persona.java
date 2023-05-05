@@ -76,7 +76,7 @@ public class Persona {
 /**
  * este metodo
  * @param separador recibe el caracter -
- * @throws IllegalAccessError lanza la excepcion si el separador es diferente a "-" o "/"
+ * @throws IllegalArgumentException lanza la excepcion si el separador es diferente a "-" o "/"
  * @return devuelve la fecha con el formato "dd-mm-yyyy"
  */
     public String getFechaNacimiento(char separador) {
