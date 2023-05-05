@@ -17,6 +17,8 @@ public class ClasePersona {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
+        //INICIALIZACION VARIABLES
         String nombreAlumno;
         String apellidoAlumno;
         String fechaAlumno;
